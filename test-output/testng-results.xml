@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="16" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-11T17:37:48 IST" name="Tutorials Ninja SRN suite" finished-at="2023-02-11T17:39:25 IST" duration-ms="96816">
+    <groups>
+    </groups>
+    <test started-at="2023-02-11T17:37:48 IST" name="Tutorials Ninja Nandi Tests" finished-at="2023-02-11T17:39:25 IST" duration-ms="96816">
+      <class name="com.tutorialsNinjaTestcases.LoginTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.tutorialsNinjaTestcases.LoginTest@2d1ef81a]" started-at="2023-02-11T17:38:20 IST" name="SetUp" finished-at="2023-02-11T17:38:23 IST" duration-ms="3713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="LoginWithInvalidCredentials()[pri:2, instance:com.tutorialsNinjaTestcases.LoginTest@2d1ef81a]" started-at="2023-02-11T17:38:23 IST" name="LoginWithInvalidCredentials" finished-at="2023-02-11T17:38:24 IST" duration-ms="776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.tutorialsNinjaTestcases.LoginTest@2d1ef81a]" started-at="2023-02-11T17:38:24 IST" name="TearDown" finished-at="2023-02-11T17:38:24 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.tutorialsNinjaTestcases.LoginTest@2d1ef81a]" started-at="2023-02-11T17:38:24 IST" name="SetUp" finished-at="2023-02-11T17:38:28 IST" duration-ms="3620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="LoginWithInvalidEmailandvalidpassword()[pri:3, instance:com.tutorialsNinjaTestcases.LoginTest@2d1ef81a]" started-at="2023-02-11T17:38:28 IST" name="LoginWithInvalidEmailandvalidpassword" finished-at="2023-02-11T17:38:29 IST" duration-ms="774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInvalidEmailandvalidpassword -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.tutorialsNinjaTestcases.LoginTest@2d1ef81a]" started-at="2023-02-11T17:38:29 IST" name="TearDown" finished-at="2023-02-11T17:38:29 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.tutorialsNinjaTestcases.LoginTest@2d1ef81a]" started-at="2023-02-11T17:38:30 IST" name="SetUp" finished-at="2023-02-11T17:38:35 IST" duration-ms="5389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="LoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinjaTestcases.LoginTest@2d1ef81a]" started-at="2023-02-11T17:38:35 IST" name="LoginWithValidCredentials" data-provider="ValidCredentialsSupplier" finished-at="2023-02-11T17:38:36 IST" depends-on-methods="com.tutorialsNinjaTestcases.LoginTest.LoginWithInvalidCredentials, com.tutorialsNinjaTestcases.LoginTest.LoginWithInvalidEmailandvalidpassword" duration-ms="852" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nandi1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidCredentials -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.tutorialsNinjaTestcases.LoginTest@2d1ef81a]" started-at="2023-02-11T17:38:36 IST" name="TearDown" finished-at="2023-02-11T17:38:36 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.tutorialsNinjaTestcases.LoginTest@2d1ef81a]" started-at="2023-02-11T17:38:36 IST" name="SetUp" finished-at="2023-02-11T17:38:40 IST" duration-ms="3802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="LoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinjaTestcases.LoginTest@2d1ef81a]" started-at="2023-02-11T17:38:40 IST" name="LoginWithValidCredentials" data-provider="ValidCredentialsSupplier" finished-at="2023-02-11T17:38:41 IST" depends-on-methods="com.tutorialsNinjaTestcases.LoginTest.LoginWithInvalidCredentials, com.tutorialsNinjaTestcases.LoginTest.LoginWithInvalidEmailandvalidpassword" duration-ms="819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nandi2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidCredentials -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.tutorialsNinjaTestcases.LoginTest@2d1ef81a]" started-at="2023-02-11T17:38:41 IST" name="TearDown" finished-at="2023-02-11T17:38:41 IST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.tutorialsNinjaTestcases.LoginTest@2d1ef81a]" started-at="2023-02-11T17:38:41 IST" name="SetUp" finished-at="2023-02-11T17:38:45 IST" duration-ms="3772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="LoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinjaTestcases.LoginTest@2d1ef81a]" started-at="2023-02-11T17:38:45 IST" name="LoginWithValidCredentials" data-provider="ValidCredentialsSupplier" finished-at="2023-02-11T17:38:46 IST" depends-on-methods="com.tutorialsNinjaTestcases.LoginTest.LoginWithInvalidCredentials, com.tutorialsNinjaTestcases.LoginTest.LoginWithInvalidEmailandvalidpassword" duration-ms="755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nandi3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidCredentials -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.tutorialsNinjaTestcases.LoginTest@2d1ef81a]" started-at="2023-02-11T17:38:46 IST" name="TearDown" finished-at="2023-02-11T17:38:46 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.tutorialsNinjaTestcases.LoginTest@2d1ef81a]" started-at="2023-02-11T17:38:46 IST" name="SetUp" finished-at="2023-02-11T17:38:50 IST" duration-ms="3993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="LoginWithValidEmailAndInvalidPossword()[pri:4, instance:com.tutorialsNinjaTestcases.LoginTest@2d1ef81a]" started-at="2023-02-11T17:38:50 IST" name="LoginWithValidEmailAndInvalidPossword" finished-at="2023-02-11T17:38:51 IST" duration-ms="657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidEmailAndInvalidPossword -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.tutorialsNinjaTestcases.LoginTest@2d1ef81a]" started-at="2023-02-11T17:38:51 IST" name="TearDown" finished-at="2023-02-11T17:38:51 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.tutorialsNinjaTestcases.LoginTest@2d1ef81a]" started-at="2023-02-11T17:38:51 IST" name="SetUp" finished-at="2023-02-11T17:38:55 IST" duration-ms="3713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="LoginWithoutAnyCredentials()[pri:5, instance:com.tutorialsNinjaTestcases.LoginTest@2d1ef81a]" started-at="2023-02-11T17:38:55 IST" name="LoginWithoutAnyCredentials" finished-at="2023-02-11T17:38:55 IST" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithoutAnyCredentials -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.tutorialsNinjaTestcases.LoginTest@2d1ef81a]" started-at="2023-02-11T17:38:55 IST" name="TearDown" finished-at="2023-02-11T17:38:55 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.tutorialsNinjaTestcases.LoginTest@2d1ef81a]" started-at="2023-02-11T17:38:55 IST" name="SetUp" finished-at="2023-02-11T17:38:59 IST" duration-ms="3620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="VerifyForgotPosswordLink()[pri:6, instance:com.tutorialsNinjaTestcases.LoginTest@2d1ef81a]" started-at="2023-02-11T17:38:59 IST" name="VerifyForgotPosswordLink" finished-at="2023-02-11T17:38:59 IST" duration-ms="517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyForgotPosswordLink -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.tutorialsNinjaTestcases.LoginTest@2d1ef81a]" started-at="2023-02-11T17:38:59 IST" name="TearDown" finished-at="2023-02-11T17:39:00 IST" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.tutorialsNinjaTestcases.LoginTest@2d1ef81a]" started-at="2023-02-11T17:39:00 IST" name="SetUp" finished-at="2023-02-11T17:39:04 IST" duration-ms="3955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="VerifyLoginWithNavigateToDifferentPage()[pri:7, instance:com.tutorialsNinjaTestcases.LoginTest@2d1ef81a]" started-at="2023-02-11T17:39:04 IST" name="VerifyLoginWithNavigateToDifferentPage" finished-at="2023-02-11T17:39:14 IST" duration-ms="10110" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"login page"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1f42292ad0f1f2ff9148a90f2edd531b, findElement {using=link text, value=login page}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\NANDIS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57750}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57750/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f42292ad0f1f2ff9148a90f2edd531b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"login page"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1f42292ad0f1f2ff9148a90f2edd531b, findElement {using=link text, value=login page}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\NANDIS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57750}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57750/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f42292ad0f1f2ff9148a90f2edd531b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at com.tutorialninja.qa.pagesfactory.RegisterPage.ClickOnLoginOptionInRigesterPage(RegisterPage.java:76)
+at com.tutorialsNinjaTestcases.LoginTest.VerifyLoginWithNavigateToDifferentPage(LoginTest.java:205)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithNavigateToDifferentPage -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.tutorialsNinjaTestcases.LoginTest@2d1ef81a]" started-at="2023-02-11T17:39:14 IST" name="TearDown" finished-at="2023-02-11T17:39:14 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.tutorialsNinjaTestcases.LoginTest -->
+      <class name="com.tutorialsNinjaTestcases.SearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsNinjaTestcases.SearchTest@4c402120]" started-at="2023-02-11T17:39:14 IST" name="setup" finished-at="2023-02-11T17:39:17 IST" duration-ms="2492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifySearchWithValidProduct()[pri:1, instance:com.tutorialsNinjaTestcases.SearchTest@4c402120]" started-at="2023-02-11T17:39:17 IST" name="VerifySearchWithValidProduct" finished-at="2023-02-11T17:39:18 IST" duration-ms="856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchWithValidProduct -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.tutorialsNinjaTestcases.SearchTest@4c402120]" started-at="2023-02-11T17:39:18 IST" name="TearDown" finished-at="2023-02-11T17:39:18 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsNinjaTestcases.SearchTest@4c402120]" started-at="2023-02-11T17:39:18 IST" name="setup" finished-at="2023-02-11T17:39:20 IST" duration-ms="2429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifySearchWithInvalidproduct()[pri:2, instance:com.tutorialsNinjaTestcases.SearchTest@4c402120]" started-at="2023-02-11T17:39:20 IST" name="VerifySearchWithInvalidproduct" finished-at="2023-02-11T17:39:21 IST" duration-ms="808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchWithInvalidproduct -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.tutorialsNinjaTestcases.SearchTest@4c402120]" started-at="2023-02-11T17:39:21 IST" name="TearDown" finished-at="2023-02-11T17:39:22 IST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsNinjaTestcases.SearchTest@4c402120]" started-at="2023-02-11T17:39:22 IST" name="setup" finished-at="2023-02-11T17:39:24 IST" duration-ms="2466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifySearchWithoutAnyProduct()[pri:3, instance:com.tutorialsNinjaTestcases.SearchTest@4c402120]" started-at="2023-02-11T17:39:24 IST" name="VerifySearchWithoutAnyProduct" finished-at="2023-02-11T17:39:25 IST" duration-ms="824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchWithoutAnyProduct -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.tutorialsNinjaTestcases.SearchTest@4c402120]" started-at="2023-02-11T17:39:25 IST" name="TearDown" finished-at="2023-02-11T17:39:25 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.tutorialsNinjaTestcases.SearchTest -->
+      <class name="com.tutorialsNinjaTestcases.RegisterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsNinjaTestcases.RegisterTest@34123d65]" started-at="2023-02-11T17:37:49 IST" name="setup" finished-at="2023-02-11T17:37:56 IST" duration-ms="7098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="RegisterwithMandotoryFields()[pri:1, instance:com.tutorialsNinjaTestcases.RegisterTest@34123d65]" started-at="2023-02-11T17:37:56 IST" name="RegisterwithMandotoryFields" finished-at="2023-02-11T17:37:58 IST" duration-ms="1843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterwithMandotoryFields -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.tutorialsNinjaTestcases.RegisterTest@34123d65]" started-at="2023-02-11T17:37:58 IST" name="TearDown" finished-at="2023-02-11T17:37:58 IST" duration-ms="547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsNinjaTestcases.RegisterTest@34123d65]" started-at="2023-02-11T17:37:58 IST" name="setup" finished-at="2023-02-11T17:38:02 IST" duration-ms="3694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="RegisterWithAllTheFields()[pri:2, instance:com.tutorialsNinjaTestcases.RegisterTest@34123d65]" started-at="2023-02-11T17:38:02 IST" name="RegisterWithAllTheFields" finished-at="2023-02-11T17:38:04 IST" duration-ms="1812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithAllTheFields -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.tutorialsNinjaTestcases.RegisterTest@34123d65]" started-at="2023-02-11T17:38:04 IST" name="TearDown" finished-at="2023-02-11T17:38:04 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsNinjaTestcases.RegisterTest@34123d65]" started-at="2023-02-11T17:38:04 IST" name="setup" finished-at="2023-02-11T17:38:08 IST" duration-ms="3550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="RegisterWithDuplicateEmailAdress()[pri:3, instance:com.tutorialsNinjaTestcases.RegisterTest@34123d65]" started-at="2023-02-11T17:38:08 IST" name="RegisterWithDuplicateEmailAdress" finished-at="2023-02-11T17:38:09 IST" duration-ms="1215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithDuplicateEmailAdress -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.tutorialsNinjaTestcases.RegisterTest@34123d65]" started-at="2023-02-11T17:38:09 IST" name="TearDown" finished-at="2023-02-11T17:38:09 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsNinjaTestcases.RegisterTest@34123d65]" started-at="2023-02-11T17:38:09 IST" name="setup" finished-at="2023-02-11T17:38:12 IST" duration-ms="3256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="RegisterWithoutCredentials()[pri:4, instance:com.tutorialsNinjaTestcases.RegisterTest@34123d65]" started-at="2023-02-11T17:38:12 IST" name="RegisterWithoutCredentials" finished-at="2023-02-11T17:38:13 IST" duration-ms="709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithoutCredentials -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.tutorialsNinjaTestcases.RegisterTest@34123d65]" started-at="2023-02-11T17:38:13 IST" name="TearDown" finished-at="2023-02-11T17:38:14 IST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsNinjaTestcases.RegisterTest@34123d65]" started-at="2023-02-11T17:38:14 IST" name="setup" finished-at="2023-02-11T17:38:18 IST" duration-ms="4301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyRegisteringWithYesOption()[pri:5, instance:com.tutorialsNinjaTestcases.RegisterTest@34123d65]" started-at="2023-02-11T17:38:18 IST" name="VerifyRegisteringWithYesOption" finished-at="2023-02-11T17:38:19 IST" duration-ms="1634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegisteringWithYesOption -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.tutorialsNinjaTestcases.RegisterTest@34123d65]" started-at="2023-02-11T17:38:19 IST" name="TearDown" finished-at="2023-02-11T17:38:20 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.tutorialsNinjaTestcases.RegisterTest -->
+    </test> <!-- Tutorials Ninja Nandi Tests -->
+  </suite> <!-- Tutorials Ninja SRN suite -->
+</testng-results>

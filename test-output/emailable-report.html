@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Tutorials Ninja SRN suite</th></tr>
+<tr><td><a href="#t0">Tutorials Ninja Nandi Tests</a></td><td class="num">16</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">96,816</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Tutorials Ninja SRN suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Tutorials Ninja Nandi Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.tutorialsNinjaTestcases.LoginTest</td><td><a href="#m0">VerifyLoginWithNavigateToDifferentPage</a></td><td rowspan="1">1676117344223</td><td rowspan="1">10110</td></tr><tr><th colspan="4">Tutorials Ninja Nandi Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">com.tutorialsNinjaTestcases.LoginTest</td><td><a href="#m1">LoginWithInvalidCredentials</a></td><td rowspan="1">1676117303974</td><td rowspan="1">776</td></tr><tr class="passedeven"><td><a href="#m2">LoginWithInvalidEmailandvalidpassword</a></td><td rowspan="1">1676117308575</td><td rowspan="1">774</td></tr><tr class="passedeven"><td><a href="#m3">LoginWithValidCredentials</a></td><td rowspan="3">1676117320558</td><td rowspan="3">819</td></tr><tr class="passedeven"><td><a href="#m4">LoginWithValidCredentials</a></td></tr><tr class="passedeven"><td><a href="#m5">LoginWithValidCredentials</a></td></tr><tr class="passedeven"><td><a href="#m6">LoginWithValidEmailAndInvalidPossword</a></td><td rowspan="1">1676117330502</td><td rowspan="1">657</td></tr><tr class="passedeven"><td><a href="#m7">LoginWithoutAnyCredentials</a></td><td rowspan="1">1676117335093</td><td rowspan="1">445</td></tr><tr class="passedeven"><td><a href="#m8">VerifyForgotPosswordLink</a></td><td rowspan="1">1676117339407</td><td rowspan="1">517</td></tr><tr class="passedodd"><td rowspan="5">com.tutorialsNinjaTestcases.RegisterTest</td><td><a href="#m9">RegisterWithAllTheFields</a></td><td rowspan="1">1676117282572</td><td rowspan="1">1812</td></tr><tr class="passedodd"><td><a href="#m10">RegisterWithDuplicateEmailAdress</a></td><td rowspan="1">1676117288217</td><td rowspan="1">1215</td></tr><tr class="passedodd"><td><a href="#m11">RegisterWithoutCredentials</a></td><td rowspan="1">1676117292959</td><td rowspan="1">709</td></tr><tr class="passedodd"><td><a href="#m12">RegisterwithMandotoryFields</a></td><td rowspan="1">1676117276473</td><td rowspan="1">1843</td></tr><tr class="passedodd"><td><a href="#m13">VerifyRegisteringWithYesOption</a></td><td rowspan="1">1676117298311</td><td rowspan="1">1634</td></tr><tr class="passedeven"><td rowspan="3">com.tutorialsNinjaTestcases.SearchTest</td><td><a href="#m14">VerifySearchWithInvalidproduct</a></td><td rowspan="1">1676117360970</td><td rowspan="1">808</td></tr><tr class="passedeven"><td><a href="#m15">VerifySearchWithValidProduct</a></td><td rowspan="1">1676117357347</td><td rowspan="1">856</td></tr><tr class="passedeven"><td><a href="#m16">VerifySearchWithoutAnyProduct</a></td><td rowspan="1">1676117364568</td><td rowspan="1">824</td></tr></tbody>
+</table>
+<h2>Tutorials Ninja Nandi Tests</h2><h3 id="m0">com.tutorialsNinjaTestcases.LoginTest#VerifyLoginWithNavigateToDifferentPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;login page&quot;}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1f42292ad0f1f2ff9148a90f2edd531b, findElement {using=link text, value=login page}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\NANDIS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57750}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57750/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f42292ad0f1f2ff9148a90f2edd531b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at com.tutorialninja.qa.pagesfactory.RegisterPage.ClickOnLoginOptionInRigesterPage(RegisterPage.java:76)
+	at com.tutorialsNinjaTestcases.LoginTest.VerifyLoginWithNavigateToDifferentPage(LoginTest.java:205)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.tutorialsNinjaTestcases.LoginTest#LoginWithInvalidCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.tutorialsNinjaTestcases.LoginTest#LoginWithInvalidEmailandvalidpassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.tutorialsNinjaTestcases.LoginTest#LoginWithValidCredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>nandi2@gmail.com</td><td>123456</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.tutorialsNinjaTestcases.LoginTest#LoginWithValidCredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>nandi3@gmail.com</td><td>123456</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.tutorialsNinjaTestcases.LoginTest#LoginWithValidCredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>nandi1@gmail.com</td><td>123456</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.tutorialsNinjaTestcases.LoginTest#LoginWithValidEmailAndInvalidPossword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.tutorialsNinjaTestcases.LoginTest#LoginWithoutAnyCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.tutorialsNinjaTestcases.LoginTest#VerifyForgotPosswordLink</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.tutorialsNinjaTestcases.RegisterTest#RegisterWithAllTheFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.tutorialsNinjaTestcases.RegisterTest#RegisterWithDuplicateEmailAdress</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.tutorialsNinjaTestcases.RegisterTest#RegisterWithoutCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.tutorialsNinjaTestcases.RegisterTest#RegisterwithMandotoryFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.tutorialsNinjaTestcases.RegisterTest#VerifyRegisteringWithYesOption</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.tutorialsNinjaTestcases.SearchTest#VerifySearchWithInvalidproduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.tutorialsNinjaTestcases.SearchTest#VerifySearchWithValidProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.tutorialsNinjaTestcases.SearchTest#VerifySearchWithoutAnyProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
