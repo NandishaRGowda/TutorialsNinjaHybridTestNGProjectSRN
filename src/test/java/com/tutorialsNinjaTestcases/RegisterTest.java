@@ -12,7 +12,7 @@ import com.tutorialninja.qa.pagesfactory.RegisterPage;
 import com.tutorialsNinja.qa.Base.Base;
 import com.tutorialsNinjaUtilities.SrnUtilities;
 
-//update
+//update= Added more details
 public class RegisterTest extends Base {
 	
 	public WebDriver driver;
